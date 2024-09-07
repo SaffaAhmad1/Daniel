@@ -1,0 +1,27 @@
+/*  */
+/* sm */
+@media screen and (min-width:640px) {}
+
+/* md */
+@media screen and (min-width:768px) {
+
+    .navbar .nav-link.active::after{
+        width: 70%;
+        left: 8px;
+    }
+  
+}
+
+/* lg */
+@media screen and (min-width:1024px) {
+    .container2{
+        margin-inline: 100px;
+    }
+
+}
+
+/* xl */
+@media screen and (min-width:1280px) {}
+
+/* 2xl */
+@media screen and (min-width:1536px) {}
